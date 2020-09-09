@@ -4,7 +4,7 @@
 # or whitespace (' ').
 
 class EmailAddressParser 
-  list = []
+  @list = []
   def initialize(emails) 
     emails << list
     binding.pry
