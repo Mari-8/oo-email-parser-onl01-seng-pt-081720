@@ -5,13 +5,13 @@ require 'pry'
 # or whitespace (' ').
 
 class EmailAddressParser
-    attr_reader :emails
+    attr_reader :email_list
 
-    def initialize(emails)
-      @emails = emails
+    def initialize(email_list)
+      @emails = email_list
     end
 
     def parse
-      emails.split(/, | /).uniq
+      @emails.split(/, | /).uniq
     end
   end 
