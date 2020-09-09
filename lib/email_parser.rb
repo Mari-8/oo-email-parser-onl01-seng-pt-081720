@@ -6,7 +6,6 @@
 class EmailAddressParser 
   @list = []
   def initialize(emails) 
-    emails << @list
     binding.pry
   end 
   
