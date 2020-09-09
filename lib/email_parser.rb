@@ -8,4 +8,6 @@ class EmailAddressParser
   def initialize(emails) 
     emails << list
     binding.pry
+  end 
+  
 end
