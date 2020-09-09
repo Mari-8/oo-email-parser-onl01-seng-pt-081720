@@ -7,7 +7,7 @@ require 'pry'
 class EmailAddressParser 
   @list = []
   def initialize(emails) 
-    @list << emails 
+    @list << emails.to_a 
     binding.pry
   end 
   
